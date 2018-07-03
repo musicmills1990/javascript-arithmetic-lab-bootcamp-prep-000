@@ -17,6 +17,7 @@ function dec(a){
   return a -= 1;
 }
 function makeInt(a,base){
-  var parse = parseInt('a',)
+  var parse = parseInt('a',base);
+  
 }
 }
