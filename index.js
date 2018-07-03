@@ -22,5 +22,7 @@ function makeInt(n){
   else return integer;
 }
 function preserveDecimal(n){
-  return parseFloat('n')
+  var noninteger = parseFloat('n')
+  if(isNaN(noninteger)) {return NaN}
+  else return noninteger
 }
