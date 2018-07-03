@@ -18,6 +18,7 @@ function dec(a){
 }
 function makeInt(n){
   var integer = parseInt('n',10)
+  if()
 }
 function preserveDecimal(n){
   if(
