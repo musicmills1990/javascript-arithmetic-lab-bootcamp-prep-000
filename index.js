@@ -19,4 +19,3 @@ function dec(a){
 function makeInt(a,base){
   return parseInt('a', base);
 }
-function preserveDecimal(
