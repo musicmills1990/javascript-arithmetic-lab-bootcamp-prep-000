@@ -16,6 +16,5 @@ function inc(a){
 function dec(a){
   return a -= 1;
 }
-function makeInt(a,base){
-  return parseInt('a', base);
+function makeInt(
 }
