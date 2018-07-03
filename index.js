@@ -18,7 +18,7 @@ function dec(a){
 }
 function makeInt(n){
   var integer = parseInt('n',10)
-  if((isNaN(integer))===integer) {return 0}
+  if((isNaN(integer))===integer) {return NaN}
   else return integer;
 }
 function preserveDecimal(n){
